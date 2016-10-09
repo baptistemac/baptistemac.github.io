@@ -17,7 +17,6 @@ a:active {
 
 :root {
   --color-main-500: blue;
-  --color-dark: #31383e;
 }
 
 @font-face {
@@ -48,42 +47,6 @@ a:active {
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200;
-}
-
-.intro {
-  text-align: center;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10% 20px 7% 20px;
-}
-
-.intro .fullname {
-  font-size: 1.6em;
-  font-weight: 300;
-}
-
-.intro .job {
-  font-family: "Fira sans", sans-serif;
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 1.5em;
-}
-
-@media only screen and (max-width: 779px) {
-  .intro .job {
-    font-size: 52px;
-  }
-}
-
-.intro .descr {
-  font-size: 18px;
-  line-height: 1.6em;
-  font-weight: 300;
-}
-
-.intro .descr strong {
-  font-weight: 500;
 }
 
 .socials {
@@ -124,7 +87,36 @@ a:active {
 html {
   font-family: 'Gotham', sans-serif;
   font-size: 100%;
-  color: var(--color-dark);
+}
+
+.hero {
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+
+.fullname {
+  font-size: 1.6em;
+  font-weight: 300;
+  color: #31383e;
+}
+
+.job {
+  font-family: "Fira sans", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.5em;
+  color: #31383e;
+}
+
+.intro {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #31383e;
 }
 
 .version {
@@ -133,7 +125,6 @@ html {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  opacity: .2;
 }
 
 .browsehappy {
@@ -144,4 +135,4 @@ html {
   padding: 0.5em 0;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main 2.css.map */
